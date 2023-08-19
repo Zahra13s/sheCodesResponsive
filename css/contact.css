@@ -1,0 +1,58 @@
+:root {
+  --header-color: #accbb1;
+  --text-color: #faf3dd;
+  --button-color: #8fc0a9;
+  --button_hover: #c8d5b9;
+  --align: center;
+}
+
+.alg {
+  text-align: var(--align);
+}
+
+.head {
+  font-size: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+body {
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.back {
+  color: var(--button-color);
+}
+
+.back {
+  color: var(--header-color);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first_box {
+  margin-right: 25px;
+}
+
+p {
+  margin-top: 0px;
+  line-height: 1.6;
+}
+
+@media (min-width: 390px) {
+
+  img {
+    display: block;
+    margin: auto;
+  }
+}
